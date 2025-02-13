@@ -18,12 +18,15 @@ class checkprime
            }
            else
              i++; 
-        }
-       }
-    if(count==0)
+         }
+        if(count==0)
+        {
+          System.out.println("Enterd number is prime");
+        }   
+       else
        {
-        System.out.println("Enterd number is prime");
-       }   
+         System.out.println("Enterd number is not prime");
+       }
     else
        {
         System.out.println("Enterd number is not prime");
