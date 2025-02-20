@@ -1,4 +1,4 @@
-class example
+class numoperat
 {
     public static void main(String[] args) {
         int a=123456,res,ee=0,oo=0,pp=0;
