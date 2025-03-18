@@ -1,0 +1,19 @@
+class PalindromeNumber {
+    public boolean isPalindrome(int x) {
+       int a=x,res=0;
+       while(x>0)
+        {
+            if((res<-214748364)||(res>214748364))
+            {
+               return false;   
+            }
+            res=(res*10)+(x%10);
+            x/=10;
+        } 
+        if(a==res)
+        {
+            return true;
+        }
+        return false;
+    }
+}
